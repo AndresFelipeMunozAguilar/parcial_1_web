@@ -105,9 +105,9 @@
     .pie_de_pagina{
 
         display: block;
-        position: absolute;
-        bottom: 0;
         width: 100%;
+        margin-bottom: 0;
+        padding: 0;
         text-align: center;
         background-color: var( --color_de_fondo );
 
