@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+    color: gray;
+    font-family: "Comic Sans MS", "Comic Sans";
+    font:30px;
+}
+.par::first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+  }
+  h1::first-letter{
+    font-size: 5rem;
+    font-weight: bold;
+    color: purple;
+  }
+.sub{
+    text-decoration: underline;
+}
+.cent{
+    text-align: center;
+}
+.cent p{
+    font-size:15px;
+    color:black;
+}

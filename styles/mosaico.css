@@ -1,0 +1,70 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.75;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 90vw;
+    height: 90vh;
+    border: 20px;
+    border: 20px;
+}
+
+.media_d{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contain_media{
+    display: flex; 
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #269bf4;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.media_content{
+    position: relative;
+    height: 100%;
+    scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: #d6ebfc;
+    
+}
+
+.media_content h2{
+    font-size: 12px;
+}
+.media_content iframe{
+    width: 50%;
+    height: 80%;
+}
+.audio_grid_primera{
+    
+    border-top: 2px solid black;
+    padding: 20px;
+}
+.audio_grid{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+}

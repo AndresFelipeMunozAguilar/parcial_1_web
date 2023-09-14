@@ -2,6 +2,12 @@
     box-sizing: border-box;
     }
     
+    :root{
+
+        --color_de_fondo: rgb(32, 179, 170);
+
+    }
+
     body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -9,11 +15,6 @@
     min-block-size: 100vh;
     }
 
-    .header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
-    }
 
     .topnav {
     overflow: hidden;
@@ -45,22 +46,39 @@
     color: black;
     }
 
-    .column {
-    float: left;
-    padding:0;
+    .column {  /* esta es la parte donde se desplegará todo el iframe  */
+   
+        float: left;
+        padding:0;
+        width: 100%;
+        height: 100%;
+
     }
 
+    /* esta es la lista de items que están en la parte izquierda del grid donde se encuentran las secciones */
     .izq ul{
-    list-style:none;
-    display:flex;
-    flex-direction: column;
+        list-style:none;
+        display:flex;
+        flex-direction: column;
+        
     }
 
+    .izq > ul > li > a{
+
+        color: white;
+
+    }
+
+    /* esta es la parte izquierda del grid donde se encuentran las secciones */
     .izq{
-    float:left;
-    width: 150px;
-    margin-top:1%;
-    background-color: #ddd;
+        display: flex;
+        float:left;
+        width: 150px;
+        height: 50vh;
+        margin-top:1%;
+        background-color: rgb( 48, 80, 78 );
+        
+        
     }
 
     .izq a{
@@ -74,10 +92,14 @@
     clear: both;
     }
 
-    @media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-    }
+    @media screen and (max-width:500px) {
+    
+        :root{
+
+            --color_de_fondo: #65350f;
+
+        }
+
     }
 
     .pie_de_pagina{
@@ -86,6 +108,37 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+        text-align: center;
+        background-color: var( --color_de_fondo );
+
+    }
+
+    .header_image {
+
+        display: inline-block;
+        aspect-ratio: 16/9;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
+
+    }
+
+    .header_text {
+
+        display: inline-flex;
+        width: 100%;
+        height: 100;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .header {
+
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var( --color_de_fondo );
+        padding: 20px;
         text-align: center;
 
     }
