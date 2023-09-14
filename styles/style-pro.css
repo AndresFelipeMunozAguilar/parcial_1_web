@@ -3,11 +3,16 @@ p::first-line {
     font-weight: bold;
     color:brown;
 }
+
 body{
     text-align: center;
     background-color: aliceblue;
 }
-div {
+
+.main_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     align-content:center;
     border: 5px solid blue;
     margin: auto;
