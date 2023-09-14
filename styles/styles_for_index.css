@@ -53,12 +53,14 @@
 
     }
 
+    /* esta es la lista de items que están en la parte izquierda del grid donde se encuentran las secciones */
     .izq ul{
     list-style:none;
     display:flex;
     flex-direction: column;
     }
 
+    /* esta es la parte izquierda del grid donde se encuentran las secciones */
     .izq{
     float:left;
     width: 150px;
