@@ -18,6 +18,7 @@
 
     .topnav {
     overflow: hidden;
+    justify-content: space-evenly;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -74,7 +75,7 @@
         display: flex;
         float:left;
         width: 150px;
-        height: 50vh;
+        height: 560px;
         margin-top:1%;
         background-color: rgb( 48, 80, 78 );
         
@@ -97,6 +98,12 @@
         :root{
 
             --color_de_fondo: #65350f;
+
+        }
+
+        .izq {
+
+            background-color: #65350f;
 
         }
 
