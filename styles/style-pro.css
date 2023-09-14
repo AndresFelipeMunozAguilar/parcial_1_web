@@ -11,11 +11,17 @@ body{
 
 .main_grid {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px 5px;
     align-content:center;
     border: 5px solid blue;
     margin: auto;
     width: 40%;
     padding: 10px;
-  }
+}
+
+.main_grid > div {
+
+    border: 1px solid black;
+
+}
