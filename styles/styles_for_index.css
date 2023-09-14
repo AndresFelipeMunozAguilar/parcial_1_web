@@ -93,7 +93,7 @@
     clear: both;
     }
 
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:520px) {
     
         :root{
 
@@ -105,6 +105,76 @@
 
             background-color: #65350f;
 
+        }
+
+        .header_image {
+
+            display: block;
+            object-fit: contain;
+            mix-blend-mode: color-burn;
+    
+        }
+    
+        .header_text {
+    
+            display: block;
+            width: 100%;
+            height: 100;
+            justify-content: center;
+            align-items: center;
+    
+    
+        }
+
+        .header {
+
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            background-color: var( --color_de_fondo );
+            padding: 20px;
+            text-align: center;
+    
+        }
+
+        #main_iframe {
+
+            width: 100%; 
+            height: 560px;
+            margin-top: 18px;
+    
+        }
+
+        .column {  /* esta es la parte donde se desplegará todo el iframe  */
+   
+            display: inline-flex;
+            padding:0;
+            width: 310px;
+            height: 100%;
+            align-items: flex-start;
+            margin-left: 10px;
+    
+        }
+
+        .izq{
+
+            display: inline-flex;
+            width: 150px;
+            height: 560px;
+            margin-top:18px;
+           
+            
+        }
+
+        .topnav {
+            overflow: hidden;
+            justify-content: space-evenly;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1.5em;
+            margin-top: 5px;
         }
 
     }
@@ -147,5 +217,13 @@
         background-color: var( --color_de_fondo );
         padding: 20px;
         text-align: center;
+
+    }
+
+    #main_iframe {
+
+        width: 100%; 
+        height: 560px;
+        margin-top: 18px;
 
     }
