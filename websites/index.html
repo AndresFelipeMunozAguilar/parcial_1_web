@@ -2,77 +2,7 @@
 <html>
     <head>
         <title>PARCIAL</title>
-        <style>
-            * {
-            box-sizing: border-box;
-            }
-            body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.75;
-            min-block-size: 100vh;
-            }
-            .header {
-            background-color: #f1f1f1;
-            padding: 20px;
-            text-align: center;
-            }
-            .topnav {
-            overflow: hidden;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            gap: 1.5em;
-            }
-            .topnav a{
-            float: left;
-            display: block;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            color:black;
-            }
-            .active{
-            background-color: #000;
-            border-radius: 999em;
-            color: #fff !important;
-            }
-            .topnav a:hover:not(.active){
-            background-color: #ddd;
-            border-radius: 999em;
-            color: black;
-            }
-            .column {
-            float: left;
-            padding:0;
-            }
-            .izq ul{
-            list-style:none;
-            display:flex;
-            flex-direction: column;
-            }
-            .izq{
-            float:left;
-            width: 150px;
-            margin-top:1%;
-            background-color: #ddd;
-            }
-            .izq a{
-            text-decoration: none;
-            color:black;
-            }
-            .row::after {
-            content: "";
-            display: table;
-            clear: both;
-            }
-            @media screen and (max-width:600px) {
-            .column {
-                width: 100%;
-            }
-            }
-        </style>
+        <link rel="stylesheet" href="../styles/styles_for_index.css">
     </head>
     <body>
         <div class="header">
@@ -97,11 +27,15 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
             </div> 
           </div>
-          <footer>
+          
+        <div class="pie_de_pagina">
+         <footer>
             <h2>Autores</h2>
             <p>Andrea Parra<br></p>
             <p>Andres Muñoz<br></p>
             <p>Oscar Torrens<br></p>
           </footer>
+        </div>
+
     </body>
 </html>
