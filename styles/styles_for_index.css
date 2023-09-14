@@ -50,22 +50,35 @@
    
         float: left;
         padding:0;
+        width: 100%;
+        height: 100%;
 
     }
 
     /* esta es la lista de items que están en la parte izquierda del grid donde se encuentran las secciones */
     .izq ul{
-    list-style:none;
-    display:flex;
-    flex-direction: column;
+        list-style:none;
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .izq > ul > li > a{
+
+        color: white;
+
     }
 
     /* esta es la parte izquierda del grid donde se encuentran las secciones */
     .izq{
-    float:left;
-    width: 150px;
-    margin-top:1%;
-    background-color: #ddd;
+        display: flex;
+        float:left;
+        width: 150px;
+        height: 50vh;
+        margin-top:1%;
+        background-color: rgb( 48, 80, 78 );
+        
+        
     }
 
     .izq a{

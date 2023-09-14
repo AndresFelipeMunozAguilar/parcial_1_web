@@ -3,6 +3,7 @@
     <head>
         <title>PARCIAL</title>
         <link rel="stylesheet" href="../styles/styles_for_index.css">
+        <base target="iframe_principal">
     </head>
     <body>
         <div class="header">
@@ -19,27 +20,29 @@
 
           <div class="topnav">
             <a href="#" class="active">Formulario</a>
-            <a href="#">Wikipedia</a>
-            <a href="#">Fotografía</a>
+            <a href="https://es.wikipedia.org/wiki/Anexo:Personas_que_murieron_en_el_cuarto_de_ba%C3%B1o">Wikipedia</a>
+            <a href="foto.html">Fotografía</a>
           </div>
+
           <div class="izq"> <!-- izq hace referencia al aparte izquierda del grid donde se encuentran las secciones -->
             <ul>
                 <li><a href="#">Cuento</a></li>
-                <li><a href="#">Arcoiris</a></li>
+                <li><a href="arco.html">Arcoiris</a></li>
                 <li><a href="#">Mosaico Multimedia</a></li>
-              </ul>
-        </div>
+            </ul>
+          </div>
+
+
           <div class="row" style="margin-left:10%;">
             <div class="column"> <!-- esa es la parte donde se desplegará todo el iframe -->
-              <h2>Column</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+              <iframe name="iframe_principal" src="pagina_default_iframe.html" frameborder="0" title="iframe_principal" width="100%" height="560px"></iframe>
             </div>
           </div>
 
         <div class="pie_de_pagina">
          <footer>
             <h2>Autores</h2>
-            <p>Andrea Parra | Andres Muñoz | Oscar Torrens | Daniel Pinto</p>
+            <a href="profesor.html">Andrea Parra | Andres Muñoz | Oscar Torrens | Daniel Pinto</a>
           </footer>
         </div>
 

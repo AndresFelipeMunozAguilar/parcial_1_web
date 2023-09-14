@@ -1,0 +1,16 @@
+p::first-line {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:brown;
+}
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+div {
+    align-content:center;
+    border: 5px solid blue;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+  }
