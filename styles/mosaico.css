@@ -58,7 +58,11 @@ main{
     width: 50%;
     height: 80%;
 }
-
+.audio_grid_primera{
+    
+    border-top: 2px solid black;
+    padding: 20px;
+}
 .audio_grid{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
