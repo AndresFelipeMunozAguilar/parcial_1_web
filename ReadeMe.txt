@@ -1,0 +1,12 @@
+Primero, para ejecutar la página web debe descargar completamente el zip, luego descomprimirlo en la carpeta
+de su preferencia, tras esto, la página web debe iniciarse desde el archivo "index.html" esto es, ir a la siguiente ruta: disWeb/websites/index.html y,
+al entrar a ese archivo presionar alt+l alt+o con la extension de live server instalada.
+
+La página tiene los colores especificados en el archivo pdf enviado por el profesor, más, al cambiar el ancho del viewport a 
+520 px o menos, los colores cambian respectivamente a café y, además, los elementos se apilan y se reparten el espacio de manera
+estética considerando el ancho que se tiene.
+
+Tiene los 6 apartados especificados en el pdf y todos se ejecutan en el iframe.
+
+Los autores de el proyecto se encuentran clickeando sobre los nombres que se encuentran en el pie de página, el cual, desplegará una página
+en el iframe con los nombres, códigos, carreras y semestres de cada una de las personas que colaboró en la creación de la página.

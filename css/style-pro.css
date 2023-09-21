@@ -1,0 +1,27 @@
+p::first-line {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:brown;
+}
+
+body{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.main_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1px 5px;
+    align-content:center;
+    border: 5px solid blue;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.main_grid > div {
+
+    border: 1px solid black;
+
+}

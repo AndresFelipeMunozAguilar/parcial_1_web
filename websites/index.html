@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PARCIAL de web semestre 2023-2 - grupo 3 - uis. Se usó tecnología flexbox para organizar el sitio</title>
+        <link rel="stylesheet" href="../css/styles_for_index.css">
+        <base target="iframe_principal">
+    </head>
+    <body>
+        <div class="header">
+
+          <div class="header_image">
+            <img src="../images/descarga.png" alt="No image available">
+          </div>
+
+          <div class="header_text">
+            <h1>Universidad Industrial de Santander</h1>
+          </div>
+
+        </div>
+
+          <div class="topnav">
+            <a href="Formulario.html" class="active">Formulario</a>
+            <a href="https://es.wikipedia.org/wiki/Anexo:Personas_que_murieron_en_el_cuarto_de_ba%C3%B1o">Wikipedia</a>
+            <a href="foto.html">Fotografía</a>
+          </div>
+
+          <div class="izq"> <!-- izq hace referencia al aparte izquierda del grid donde se encuentran las secciones -->
+            <ul>
+                <li><a href="pagina_default_iframe.html">Cuento</a></li>
+                <li><a href="arco.html">Arcoiris</a></li>
+                <li><a href="mosaico.html">Mosaico Multimedia</a></li>
+            </ul>
+          </div>
+
+
+          <div class="row" style="margin-left:10%;">
+            <div class="column"> <!-- esa es la parte donde se desplegará todo el iframe -->
+              <iframe id="main_iframe" name="iframe_principal" src="pagina_default_iframe.html" frameborder="0" title="iframe_principal"></iframe>
+            </div>
+          </div>
+
+        <div class="pie_de_pagina">
+         <footer>
+            <h2>Autores</h2>
+            <a href="profesor.html">Andrea Parra | Andres Muñoz | Oscar Torrens | Daniel Pinto</a>
+          </footer>
+        </div>
+
+    </body>
+</html>
