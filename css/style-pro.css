@@ -11,6 +11,7 @@ body{
 
 .main_grid {
     display: grid;
+    overflow: auto;
     grid-template-columns: auto auto auto auto;
     gap: 1px 5px;
     align-content:center;
